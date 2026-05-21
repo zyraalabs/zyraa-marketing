@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getToken } from "next-auth/jwt";
 import { Logo } from "@/components/shared/logo";
 import { Button } from "@/components/ui/button";
-import { AUTH_URL, NEXTAUTH_SECRET, IS_PRODUCTION, APP_URL } from "@/lib/env";
+import { APP_URL, AUTH_URL, IS_PRODUCTION, NEXTAUTH_SECRET } from "@/lib/env";
 import { MobileMenu } from "./mobile-menu";
 import { NavLinks } from "./nav-links";
 import { ThemeToggle } from "./theme-toggle";
