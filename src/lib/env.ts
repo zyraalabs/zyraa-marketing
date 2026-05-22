@@ -11,9 +11,6 @@ export const HOME_URL =
 export const COOKIE_DOMAIN = process.env.NEXT_PUBLIC_COOKIE_DOMAIN ?? "";
 
 // ── Server-side ──────────────────────────────────────────────────────────────
-export const AUTH_SERVICE_URL =
-  process.env.AUTH_SERVICE_URL ?? "http://localhost:3001";
-
 export const NEXTAUTH_SECRET = process.env.NEXTAUTH_SECRET ?? "";
 
 export const IS_PRODUCTION = process.env.NODE_ENV === "production";
