@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -54,12 +53,12 @@ export function UserMenu({ name, email, image }: Props) {
             </div>
             <div className={cn("border-t border-border")} />
             <div className="p-1.5">
-              <Link
+              <a
                 href={signOutUrl}
                 className="flex w-full items-center rounded-lg px-3 py-2 text-sm text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
               >
                 Sign out
-              </Link>
+              </a>
             </div>
           </div>
         </>
