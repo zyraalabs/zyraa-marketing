@@ -124,7 +124,7 @@ export const ENTERPRISE_PLAN_ITEMS = [
   "SLA & invoicing",
 ];
 
-export const CLI_INSTALL_CMD = "npm install -g zyra-cli";
+export const CLI_INSTALL_CMD = "npm install -g zyraa";
 
 export const GITHUB_URL = "https://github.com/zyraalabs";
 
